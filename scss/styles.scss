@@ -1,0 +1,101 @@
+/*Color Vaiables*/ 
+
+@import "./variables";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+}
+
+
+.main-body-container {
+  background: $mainBg;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+.content-container {
+  background: $cardBg;
+  height: 80vh;
+  width: 90%;
+  display: grid;
+  border-radius: 20px;
+  align-items: start;
+  // place-items: center;
+  // grid-template-rows: 100px 100px;
+
+  
+.img-container {
+  display: grid;
+  place-items:center;
+    
+}
+
+  img {
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+
+
+/*Text Container*/ 
+
+.text-container{
+  margin-left: 30px;
+  margin-bottom: 50%;
+ 
+ }
+ 
+ .header {
+  
+ p{ 
+   line-height: 3;
+   color: #fff;
+ 
+ }
+ }
+
+ .text-content {
+   line-height: 1.7;
+ }
+
+ .eth-icon {
+  display: flex;
+  justify-content: space-between;
+
+  .time {
+    margin-right: 25px;
+  }
+
+
+ }
+ 
+ hr {
+   margin-top: 20px;
+   width: 92%;
+ }
+
+
+.creator {
+  display: flex;
+
+img {
+  border: 2px solid #aaa;
+  border-radius: 30px;
+}
+
+
+p{
+margin-top: 10%;
+margin-left: 15px;
+}
+}
+}
+
+}
+
+

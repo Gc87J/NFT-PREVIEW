@@ -16,7 +16,7 @@
 }
 .main-body-container .content-container {
   background: #14253d;
-  height: 80vh;
+  height: 83vh;
   width: 90%;
   display: grid;
   border-radius: 20px;
@@ -26,6 +26,9 @@
 .main-body-container .content-container .img-container {
   display: grid;
   place-items: center;
+}
+.main-body-container .content-container .img-container:hover {
+  color: #00fff7;
 }
 .main-body-container .content-container img {
   margin-top: 20px;
@@ -38,20 +41,37 @@
 .main-body-container .content-container .header p {
   line-height: 3;
   color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.main-body-container .content-container .header p:hover {
+  color: #00fff7;
 }
 .main-body-container .content-container .text-content {
   line-height: 1.7;
+}
+.main-body-container .content-container .text-content p {
+  font-size: 1rem;
+  color: #8bacda;
 }
 .main-body-container .content-container .eth-icon {
   display: flex;
   justify-content: space-between;
 }
+.main-body-container .content-container .eth-icon span {
+  color: #00fff7;
+}
 .main-body-container .content-container .eth-icon .time {
   margin-right: 25px;
+}
+.main-body-container .content-container .eth-icon .time span {
+  color: #8bacda;
 }
 .main-body-container .content-container hr {
   margin-top: 20px;
   width: 92%;
+  border-color: #2f415b;
 }
 .main-body-container .content-container .creator {
   display: flex;
@@ -63,4 +83,12 @@
 .main-body-container .content-container .creator p {
   margin-top: 10%;
   margin-left: 15px;
+  color: #8bacda;
+}
+.main-body-container .content-container .creator p span {
+  color: #fff;
+  cursor: pointer;
+}
+.main-body-container .content-container .creator p span:hover {
+  color: #00fff7;
 }/*# sourceMappingURL=styles.css.map */
